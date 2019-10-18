@@ -2,20 +2,20 @@
 This is a Code Sample project for your Inertia Systems job application!
 This sample should take approximately **1 hour** to complete. 
 
+### **Submit your code as a `.zip` file to your hiring contact.**
+
 Your code will be analyzed on a variety of factors, including:
 
     - Readability
     - Functionality
     - Accuracy
 
-Submit your code as a `.zip` file to your hiring contact.
-
 -------------
 Using the included `sampledata.json` file as a data source we will have to answer a few questions.  Here is some information about the sample data:
 
 ```
 {
-    "equipment": { 
+    "inventory": { 
         "date":"2019-10-10", 
         "items":[            
             {
@@ -31,7 +31,7 @@ Using the included `sampledata.json` file as a data source we will have to answe
     }
 }
 ```
-**equipment** - A JSON object that contains all of the current inventory results.
+**inventory** - A JSON object that contains all of the current inventory results.
 
 **date** - The DATE that this inventory was recorded.
 
