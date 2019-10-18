@@ -57,7 +57,7 @@ You will be creating a web app that uses PHP Scripts that accept HTTP Requests w
 **2.  Daily cost of operations.  How much, using the depreciation of each asset, does each day cost us to operate.  Display daily cost per item, and total overall cost.**
 
 **3.  How many items need to be replaced in `X` days.  Given an integer for the number of days after the inventory date report, how many items will need to be replaced and the total costs of the order to replace them.**
->For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to return to the `need`ed inventory, and the total cost of them all. 
+>For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all. 
 
 ----
 Your front end may be as simple or as complex as you want so long as it addresses the 3 questions asked above.  Use this as a chance to demonstrate your code organization skills.  You may use any framework or library you want (jQuery..etc.), however, your project should utilize the built in php web-server for execution. https://www.php.net/manual/en/features.commandline.webserver.php
