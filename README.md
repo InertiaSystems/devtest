@@ -52,7 +52,7 @@ Using the included `sampledata.json` file as a data source we will have to answe
 You will be creating a web app that uses PHP Scripts that accept HTTP Requests with an HTML and Javascript front-end.  It should communicate using AJAX to the PHP script back-end. Front end code will retrieve JSON responses with the information for display. You may create as many files as you need to accomplish the task in an organized manner.  Provide the ability to request and display the answer to these three questions along with any necessary inputs: 
 
 **1. How much is our inventory worth, using straight-line depreciation of each asset.**
->For example: If an item has 10 days of life when new, and costs 100.  It will be worth 30 when there is 3 days left of life, as each day costs 10.  (`100/10 = 10`)
+>For example: If an item has 10 days of life when new, and costs 100.  It will be worth 30 when there is 3 days left of life, as each day costs 10.  (`100/10 = 10`)  You may round to 2 decimal places.
 
 **2.  Daily cost of operations.  How much, using the depreciation of each asset, does each day cost us to operate.  Display daily cost per item, and total overall cost.**
 
