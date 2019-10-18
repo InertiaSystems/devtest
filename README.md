@@ -1,4 +1,4 @@
-# Inertia Systems Code Sample
+# Inertia Systems PHP Code Sample
 This is a Code Sample project for your Inertia Systems job application!
 This sample should take approximately **1 hour** to complete. 
 
