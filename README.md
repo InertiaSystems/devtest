@@ -1,6 +1,6 @@
 # Inertia Systems PHP Code Sample
 This is a Code Sample project for your Inertia Systems job application!
-This sample should take approximately **1 hour** to complete. 
+This sample should take approximately **1-2 hours** to complete. 
 
 ### **Submit your code as a `.zip` file to your hiring contact.**
 
@@ -39,7 +39,7 @@ Using the included `sampledata.json` file as a data source we will have to answe
 
 **name** - The NAME of the inventory item.
 
-**need** - The count of this item that is needed for one day of work.
+**need** - The amount needed of this item for one day of work.
 
 **newlife** - The number of days a NEW item of this type will be useful.
 
@@ -57,7 +57,9 @@ You will be creating a web app that uses PHP Scripts that accept HTTP Requests w
 **2.  Daily cost of operations.  How much, using the depreciation of each asset, does each day cost us to operate.  Display daily cost per item, and total overall cost.**
 
 **3.  How many items need to be replaced in `X` days.  Given an integer for the number of days after the inventory date report, how many items will need to be replaced and the total costs of the order to replace them.**
->For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all. 
+>For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all.  
+
+It is OKAY for a day to go by with not enough items in inventory for the sake of this exercise.
 
 ----
 Your front end may be as simple or as complex as you want so long as it addresses the 3 questions asked above.  Use this as a chance to demonstrate your code organization skills.  You may use any framework or library you want (jQuery..etc.), however, your project should utilize the built in php web-server for execution. https://www.php.net/manual/en/features.commandline.webserver.php
