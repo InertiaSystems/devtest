@@ -92,13 +92,12 @@ It is OKAY for a day to go by with not enough working items in inventory for the
 ----
 Your front end may be as simple or as complex as you want so long as it addresses the 3 questions asked above.  Use this as a chance to demonstrate your code organization skills.  You may use any framework or library you want (jQuery..etc.), however, your project should utilize the built in php web-server for execution. https://www.php.net/manual/en/features.commandline.webserver.php
 
-**You will not be ranked on the _prettyness_ of the UI just its _functionality_**
-
 These commands should run your project from the repository directory.
 ```
 cd public
 php -S localhost:8000
 ````
+**You will be ranked on the _functionality_ not the _prettyness_ of the UI**
 
 Thank you for applying!  
 
