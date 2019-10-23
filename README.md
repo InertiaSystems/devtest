@@ -6,10 +6,10 @@ This sample should take approximately **1-2 hours** to complete.
 
 Your code will be analyzed on a variety of factors, including:
 
-    - Readability
-    - Functionality
-    - Accuracy
-
+   * Readability
+   * Functionality
+   * Accuracy
+   
 -------------
 Using the included `sampledata.json` file as a data source we will have to answer a few questions.  Here is some information about the sample data:
 
