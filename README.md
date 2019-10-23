@@ -15,8 +15,7 @@ Using the included `sampledata.json` file as a data source we will have to answe
 
 ```
 {
-    "inventory": { 
-        "date":"2019-10-10", 
+    "inventory": {         
         "items":[            
             {
                 "name": "shovel",  
@@ -33,8 +32,6 @@ Using the included `sampledata.json` file as a data source we will have to answe
 ```
 **inventory** - A JSON object that contains all of the current inventory results.
 
-**date** - The DATE that this inventory was recorded.
-
 **items** - The LIST of inventory items.
 
 **name** - The NAME of the inventory item.
@@ -49,15 +46,46 @@ Using the included `sampledata.json` file as a data source we will have to answe
 
 -------
 
-You will be creating a web app that uses PHP Scripts that accept HTTP Requests with an HTML and Javascript front-end.  It should communicate using AJAX to the PHP script back-end. Front end code will retrieve JSON responses with the information for display. You may create as many files as you need to accomplish the task in an organized manner.  Provide the ability to request and display the answer to these three questions along with any necessary inputs: 
+You will be creating a small web app that uses PHP Scripts on the backend that accept HTTP Requests with an HTML and Javascript front-end.  
+* Communicate between browser and php scripts using AJAX and JSON
+
+Provide the answers to these three questions in table format: 
 
 **1. How much is our inventory worth, using straight-line depreciation of each asset.**
 >For example: If an item has 10 days of life when new, and costs 100.  When there is 3 days of life left it will be worth 30, because each day costs 10.  (`100/10 = 10`)  You may round to 2 decimal places.
+```
+Sample Output: 
+--------------------------------------
+| Item Name |  Remaining Total Value |
+--------------------------------------
+| shovel    | 23.8                   |
+--------------------------------------
+```
 
 **2.  Daily cost of operations.  How much, using the depreciation of each asset, does each day cost us to operate.  Display daily cost per item type, and total overall cost of all the types.**
 
-**3.  How many items need to be replaced in `X` days.  Given an integer for the number of days after the inventory date report, how many items will need to be replaced and the total costs of the order to replace them.**
+```
+Sample Output: 
+------------------------------------------------------------
+| Item Name | Cost Per Day | Needed per day | Cost per day |
+------------------------------------------------------------
+| shovel    | 1.4          | 4              | 5.6          |
+------------------------------------------------------------
+```
+
+
+**3.  How many items need to be replaced in `X` days.  Given an integer for the number of days that will pass, how many items will need to be replaced and the total costs of the order to replace them.**
 >For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all.  
+
+```
+Sample Input: 3
+Sample Output: 
+----------------------------------------------------------------
+| Item Name | Need To Buy | Cost per new item | Total Cost     |
+----------------------------------------------------------------
+| shovel    | 2           | 14                | 28             |
+----------------------------------------------------------------
+```
 
 It is OKAY for a day to go by with not enough working items in inventory for the sake of this exercise, we simply want to reduce their remaining life to 0 and then stop counting them in the available inventory.
 
