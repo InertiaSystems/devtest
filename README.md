@@ -53,7 +53,7 @@ Provide the answers to these questions in table format:
 _Question #3 is optional if you feel you have time!_
 
 **1. How much is our inventory worth, using straight-line depreciation of each asset.**
->For example: If an item has 10 days of life when new, and costs 100.  When there is 3 days of life left it will be worth 30, because each day costs 10.  (`100/10 = 10`)  You may round to 2 decimal places.
+>For example: If an item has 10 days of life when new, and costs 100 it will decrease in value by 10 every day (`100/10 = 10`).  When there is 3 days of life left it will be worth 30 (`10 * 3 = 30`). You may round to 2 decimal places.
 ```
 Sample Display: 
 --------------------------------------
