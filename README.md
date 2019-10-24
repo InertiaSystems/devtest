@@ -45,7 +45,7 @@ Using the included `sampledata.json` file as a data source we will have to answe
 **inventory_life** - This is an ARRAY of current inventory items available.  Each number represents the remaining life of that item.  When an ITEM reaches 0, it can no longer be used.
 
 -------
-
+## Challenge Expectations
 You will be creating a small web app that uses PHP Scripts on the backend that accept HTTP Requests with an HTML and Javascript front-end.  
 * Communicate between browser and php scripts using AJAX and JSON
 
@@ -75,7 +75,7 @@ Sample Display:
 ```
 
 
-### **OPTIONAL** Challenge #3
+### **OPTIONAL** Challenge Question #3
 **3.  How many items need to be replaced in `X` days.  Given an integer for the number of days that will pass, how many items will need to be replaced and the total costs of the order to replace them.**
 >For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all.  
 
@@ -94,6 +94,7 @@ Sample Output:
 It is OKAY for a day to go by with not enough working items in inventory for the sake of this exercise, we simply want to reduce their remaining life to 0 and then stop counting them in the available inventory.
 
 ----
+## More Information
 Your front end may be as simple or as complex as you want so long as it addresses the 3 questions asked above.  Use this as a chance to demonstrate your code organization skills.  You may use any framework or library you want (jQuery..etc.), however, your project should utilize the built in php web-server for execution. https://www.php.net/manual/en/features.commandline.webserver.php
 
 These commands should run your project from the repository directory.
