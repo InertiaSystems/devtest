@@ -54,42 +54,39 @@ _Question #3 is optional if you feel you have time!_
 
 **1. How much is our inventory worth, using straight-line depreciation of each asset.**
 >For example: If an item has 10 days of life when new, and costs 100 it will decrease in value by 10 every day (`100/10 = 10`).  When there is 3 days of life left it will be worth 30 (`10 * 3 = 30`). You may round to 2 decimal places.
-```
+
 Sample Display: 
---------------------------------------
+
 | Item Name |  Remaining Total Value |
---------------------------------------
+| :---      | :---                   |
 | shovel    | 23.8                   |
---------------------------------------
-```
+| bucket    | 20                     |
 
 **2.  Daily cost of operations.  How much, using the depreciation of each asset, does each day cost us to operate.  Display daily cost per item type, and total overall cost of all the types.**
 
-```
 Sample Display: 
-------------------------------------------------------------
+
 | Item Name | Cost Per Day | Needed per day | Cost per day |
-------------------------------------------------------------
+| :---      | :---         | :---           | :---         |
 | shovel    | 1.4          | 4              | 5.6          |
-------------------------------------------------------------
-```
+| bucket    | 1            | 8              | 8            |
+| total     |              |                | 13.6         |
+
 
 
 ### **OPTIONAL** Challenge Question #3
 **3.  How many items need to be replaced in `X` days.  Given an integer for the number of days that will pass, how many items will need to be replaced and the total costs of the order to replace them.**
 >For Example:  If I give you `5` days as a parameter, it will remove `5` days of life from each item needed per day until they reach `0` and the report will tell me how many new items are required to fufill the needed inventory, and the total cost of them all.  
 
-```
+
 Sample Input: 3
 Sample Output: 
-----------------------------------------------------------------
+
 | Item Name | Need To Buy | Cost per new item | Total Cost     |
-----------------------------------------------------------------
+| :---      | :---        | :---              | :---           |
 | shovel    | 2           | 14                | 28             |
-----------------------------------------------------------------
 | bucket    | 6           | 5                 | 30             |
-----------------------------------------------------------------
-```
+| total     |             |                   | 58             |
 
 It is OKAY for a day to go by with not enough working items in inventory for the sake of this exercise, we simply want to reduce their remaining life to 0 and then stop counting them in the available inventory.
 
